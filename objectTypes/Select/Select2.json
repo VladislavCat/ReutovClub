@@ -1,0 +1,57 @@
+{
+	"name": "Select2",
+	"plugin-id": "Sprite",
+	"sid": 450831125800915,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "noise",
+			"name": "Noise"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1920,
+						"height": 1080,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4807946,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "P1",
+								"x": 0.14739583333333334,
+								"y": 0.7620370370370371
+							},
+							{
+								"name": "P2",
+								"x": 0.8557291666666667,
+								"y": 0.7509259259259259
+							}
+						],
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 250035874636282,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

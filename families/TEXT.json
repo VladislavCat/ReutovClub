@@ -1,0 +1,12 @@
+{
+	"name": "TEXT",
+	"plugin-id": "Text",
+	"sid": 389301573702794,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"StateDebug2",
+		"StateDebug"
+	]
+}

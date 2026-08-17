@@ -1,0 +1,99 @@
+{
+	"name": "Birds",
+	"plugin-id": "Sprite",
+	"sid": 838020748580722,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "wrap",
+			"name": "Wrap",
+			"sid": 407227819816867
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 304923126663407
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 500,
+						"height": 416,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9186351,
+						"collisionPoly": {
+							"points": [
+								0.522,
+								0.21394230769230768,
+								0.77,
+								0.3173076923076923,
+								0.946,
+								0.47836538461538464,
+								0.878,
+								0.5745192307692307,
+								0.276,
+								0.6346153846153846,
+								0.08,
+								0.47115384615384615,
+								0.114,
+								0.42788461538461536
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 500,
+						"height": 416,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4876391,
+						"collisionPoly": {
+							"points": [
+								0.484,
+								0.3125,
+								0.89,
+								0.37259615384615385,
+								0.934,
+								0.5024038461538461,
+								0.584,
+								0.6634615384615384,
+								0.218,
+								0.59375,
+								0.112,
+								0.42788461538461536
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 400819369350185,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 10
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "HitBoxes",
+	"plugin-id": "Sprite",
+	"sid": 527618382750457,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"AmigoHitBox",
+		"LeoHitbox"
+	]
+}

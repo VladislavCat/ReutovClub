@@ -1,0 +1,34 @@
+{
+	"name": "SelectTools",
+	"plugin-id": "Sprite",
+	"sid": 584625175174064,
+	"instanceVariables": [
+		{
+			"name": "ImNotFirst",
+			"type": "boolean",
+			"desc": "Определяет, какой из селектТулов второй",
+			"show": true,
+			"sid": 698691892711735
+		},
+		{
+			"name": "xValue",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 173391273756944
+		},
+		{
+			"name": "yValue",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 369815917059491
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"selecttool2",
+		"selecttool"
+	]
+}

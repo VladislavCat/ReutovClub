@@ -1,0 +1,77 @@
+{
+	"name": "Leaf",
+	"plugin-id": "Sprite",
+	"sid": 222993291245014,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 553191341148250
+		},
+		{
+			"behaviorId": "wrap",
+			"name": "Wrap",
+			"sid": 383532768469143
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 174,
+						"height": 264,
+						"originX": 0.47701149425287354,
+						"originY": 0.5037878787878788,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8515195,
+						"collisionPoly": {
+							"points": [
+								0.6091954022988506,
+								0.015151515151515152,
+								0.8448275862068966,
+								0.10606060606060606,
+								0.9885057471264368,
+								0.2727272727272727,
+								0.9597701149425287,
+								0.5113636363636364,
+								0.9080459770114943,
+								0.5681818181818182,
+								0.3103448275862069,
+								0.9848484848484849,
+								0.04597701149425287,
+								0.6325757575757576,
+								0.017241379310344827,
+								0.3977272727272727,
+								0.10344827586206896,
+								0.18560606060606058,
+								0.2413793103448276,
+								0.07954545454545454,
+								0.40804597701149425,
+								0.030303030303030304
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 462462097622016,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

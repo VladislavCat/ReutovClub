@@ -1,0 +1,13 @@
+{
+	"name": "Fighers",
+	"plugin-id": "Sprite",
+	"sid": 979259784215962,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"AmigoFighter",
+		"LeoFigther",
+		"FighterBase"
+	]
+}

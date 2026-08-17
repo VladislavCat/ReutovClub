@@ -1,0 +1,96 @@
+{
+	"name": "Bag",
+	"plugin-id": "Sprite",
+	"sid": 947500490419876,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "HP",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 500642432641294
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 524722729652829
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "contrast",
+			"name": "Contrast"
+		},
+		{
+			"effectId": "brightness",
+			"name": "Brightness"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 500,
+						"height": 600,
+						"originX": 0.498,
+						"originY": 0.03166666666666667,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1090342,
+						"collisionPoly": {
+							"points": [
+								0.492,
+								0.026666666666666675,
+								0.63,
+								0.305,
+								0.616,
+								0.933333333333333,
+								0.472,
+								0.9550000000000001,
+								0.37,
+								0.9066666666666666,
+								0.376,
+								0.27
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "joint",
+								"x": 0.494,
+								"y": 0.03
+							},
+							{
+								"name": "bottom",
+								"x": 0.5,
+								"y": 0.795
+							},
+							{
+								"name": "dust",
+								"x": 0.496,
+								"y": 0.6233333333333333
+							}
+						],
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 399016511925845,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

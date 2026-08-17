@@ -1,0 +1,72 @@
+{
+	"name": "truss",
+	"plugin-id": "Sprite",
+	"sid": 381000429689689,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 795880750353654
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutside",
+			"sid": 104401271368187
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 369897362117347
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 630,
+						"height": 156,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5365907,
+						"collisionPoly": {
+							"points": [
+								0.9507936507936507,
+								0.0641025641025641,
+								0.9968253968253968,
+								0.5448717948717948,
+								0.9158730158730158,
+								0.9615384615384616,
+								0.03968253968253968,
+								0.9743589743589743,
+								0.0031746031746031746,
+								0.47435897435897434,
+								0.0380952380952381,
+								0.05128205128205128
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 882105887649409,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

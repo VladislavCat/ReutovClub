@@ -1,0 +1,56 @@
+{
+	"name": "small",
+	"plugin-id": "Sprite",
+	"sid": 584991004734145,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 463422278464698
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 767065143164621
+		},
+		{
+			"behaviorId": "wrap",
+			"name": "Wrap",
+			"sid": 269348452250629
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 77,
+						"height": 49,
+						"originX": 0.4935064935064935,
+						"originY": 0.6122448979591837,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1827575,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 222789856973272,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

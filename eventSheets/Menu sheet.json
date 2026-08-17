@@ -1,0 +1,1723 @@
+{
+	"name": "Menu sheet",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "BUTTONS",
+			"description": "Логика кнопок главного меню (тестовое как и всё в этом проекте)))  Запуск музыки и выезд кнопок через параметр Twin.",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "BUTTONS TWEEN"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 249540275761968
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "space",
+							"sid": 668343272505114,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 485379799677925,
+							"parameters": {
+								"audio-file": {
+									"path": "tono menu"
+								},
+								"loop": "looping",
+								"volume": "-9",
+								"stereo-pan": "0",
+								"tag-optional": "\"tono\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 141310773548400,
+							"parameters": {
+								"seconds": "0.5",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 231601871678534,
+							"parameters": {
+								"audio-file": {
+									"path": "jik sound"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 254301303878301,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "versus",
+							"sid": 597622132961379,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "200",
+								"time": "1",
+								"ease": "easeoutback",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "credits",
+							"sid": 879447679751875,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "185",
+								"time": "2",
+								"ease": "easeoutback",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "quit",
+							"sid": 986027215328862,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "180",
+								"time": "3",
+								"ease": "easeoutback",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 952378509138502,
+							"parameters": {
+								"seconds": "2.4",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 181624646944052,
+							"parameters": {
+								"audio-file": {
+									"path": "jik sound2"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "select",
+							"sid": 345858683112344,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 242595647109319
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 746938328258480
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 893092993714081,
+							"parameters": {
+								"seconds": "2.3",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 907578050249462,
+							"parameters": {
+								"audio-file": {
+									"path": "jik sound2"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 734689973230063
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 969912699888076
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 311054212685023,
+							"parameters": {
+								"seconds": "4",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "arrows",
+							"sid": 669952931701311,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "space",
+							"sid": 533712859961842,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 534454149711850
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 461786239299084
+						}
+					],
+					"actions": [
+						{
+							"id": "set-active",
+							"objectClass": "space",
+							"sid": 800580798660685,
+							"behaviorType": "Sine",
+							"parameters": {
+								"state": "inactive"
+							}
+						}
+					],
+					"sid": 122423460101703
+				},
+				{
+					"eventType": "comment",
+					"text": "BUTTONS CONTROL"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 742826104217811
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "select",
+							"sid": 176258392838473,
+							"parameters": {
+								"instance-variable": "Index",
+								"value": "\"index1\""
+							}
+						}
+					],
+					"sid": 173091614709381
+				},
+				{
+					"eventType": "comment",
+					"text": "UP"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 143463635509389,
+							"parameters": {
+								"key": 38
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "select",
+							"sid": 545759773122361,
+							"parameters": {
+								"instance-variable": "Index",
+								"comparison": 0,
+								"value": "\"index2\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "select",
+							"sid": 110627008738593,
+							"parameters": {
+								"y": "180"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "select",
+							"sid": 289562154595098,
+							"parameters": {
+								"instance-variable": "Index",
+								"value": "\"index1\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 860415802980118,
+							"parameters": {
+								"audio-file": {
+									"path": "click"
+								},
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 681054788061746
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 582897943633180,
+							"parameters": {
+								"key": 38
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "select",
+							"sid": 374455453429265,
+							"parameters": {
+								"instance-variable": "Index",
+								"comparison": 0,
+								"value": "\"index3\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "select",
+							"sid": 534397354921566,
+							"parameters": {
+								"y": "500"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "select",
+							"sid": 169233029521653,
+							"parameters": {
+								"instance-variable": "Index",
+								"value": "\"index2\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 695295912264236,
+							"parameters": {
+								"audio-file": {
+									"path": "click"
+								},
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 905700713809333
+				},
+				{
+					"eventType": "comment",
+					"text": "DOWN"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 204601073966459,
+							"parameters": {
+								"key": 40
+							}
+						}
+					],
+					"actions": [],
+					"sid": 933608090348153,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "select",
+									"sid": 418754520739495,
+									"parameters": {
+										"instance-variable": "Index",
+										"comparison": 0,
+										"value": "\"index2\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "select",
+									"sid": 381434048827962,
+									"parameters": {
+										"instance-variable": "Index",
+										"value": "\"index3\""
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "select",
+									"sid": 648187515393291,
+									"parameters": {
+										"y": "790"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 439448461298689,
+									"parameters": {
+										"audio-file": {
+											"path": "click"
+										},
+										"loop": "not-looping",
+										"volume": "-10",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 329434039190300
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 273834413602138
+								}
+							],
+							"actions": [],
+							"sid": 864730319193918,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "select",
+											"sid": 816492827568872,
+											"parameters": {
+												"instance-variable": "Index",
+												"comparison": 0,
+												"value": "\"index1\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-y",
+											"objectClass": "select",
+											"sid": 180753970983452,
+											"parameters": {
+												"y": "500"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "select",
+											"sid": 331731209566153,
+											"parameters": {
+												"instance-variable": "Index",
+												"value": "\"index2\""
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 346532945548715,
+											"parameters": {
+												"audio-file": {
+													"path": "click"
+												},
+												"loop": "not-looping",
+												"volume": "-10",
+												"stereo-pan": "0",
+												"tag-optional": "\"\""
+											}
+										}
+									],
+									"sid": 758504827754043
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "comment",
+					"text": "PRESSED"
+				},
+				{
+					"eventType": "comment",
+					"text": "Versus"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 704187240187180,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "select",
+							"sid": 871061798398008,
+							"parameters": {
+								"instance-variable": "Index",
+								"comparison": 0,
+								"value": "\"index1\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 591711799269464,
+							"parameters": {
+								"audio-file": {
+									"path": "jik sound2"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 711766430420037,
+							"parameters": {
+								"audio-file": {
+									"path": "hit"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "versus",
+							"sid": 265664696981044,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "-250",
+								"time": "0.4",
+								"ease": "noease",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "select",
+							"sid": 750216206209408,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "versus",
+							"sid": 911996246435198,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 931094439864361,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "versus",
+							"sid": 719114156890066,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 777279745244346,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 895660421859778,
+							"parameters": {
+								"tag": "\"tono\""
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 372880086472213,
+							"parameters": {
+								"tag": "\"steps\""
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 508659611925528,
+							"parameters": {
+								"group-name": "\"BUTTONS\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 124170991357677,
+							"parameters": {
+								"group-name": "\"BOXER\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 819949364543838,
+							"parameters": {
+								"layout": "select"
+							}
+						}
+					],
+					"sid": 275948850644316
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 629161491103056,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "select",
+							"sid": 323997470046313,
+							"parameters": {
+								"instance-variable": "Index",
+								"comparison": 0,
+								"value": "\"index2\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 352115056033374,
+							"parameters": {
+								"audio-file": {
+									"path": "jik sound2"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 232355246929309,
+							"parameters": {
+								"audio-file": {
+									"path": "hit"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "credits",
+							"sid": 669135263402357,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "-250",
+								"time": "0.4",
+								"ease": "noease",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "select",
+							"sid": 612127916074246,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "credits",
+							"sid": 331033266732137,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 672462593053533,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "credits",
+							"sid": 871425857752859,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Brightness\""
+							}
+						}
+					],
+					"sid": 418346480512972
+				},
+				{
+					"eventType": "comment",
+					"text": "Quit"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 214480866710908,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "select",
+							"sid": 967822507670613,
+							"parameters": {
+								"instance-variable": "Index",
+								"comparison": 0,
+								"value": "\"index3\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 602921841610412,
+							"parameters": {
+								"audio-file": {
+									"path": "jik sound2"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 196322610034711,
+							"parameters": {
+								"audio-file": {
+									"path": "hit"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "quit",
+							"sid": 560438118304702,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "-250",
+								"time": "0.4",
+								"ease": "noease",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "select",
+							"sid": 772798972575796,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "quit",
+							"sid": 398381377373041,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 110819958196862,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "quit",
+							"sid": 409693790458886,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "close",
+							"objectClass": "Browser",
+							"sid": 784626778725962
+						}
+					],
+					"sid": 847153413494972
+				}
+			],
+			"sid": 766380212541939
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "BOXER",
+			"description": "Логика боксёра, звуки ударов,челнок, пыль.",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"bookmark": true,
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 268859822576832,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 868187165716475
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 360648305302163,
+							"parameters": {
+								"audio-file": {
+									"path": "boxingsteps"
+								},
+								"loop": "looping",
+								"volume": "-15",
+								"stereo-pan": "40",
+								"tag-optional": "\"steps\""
+							}
+						}
+					],
+					"sid": 390433681963242
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 298059514059016,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 356261030351015,
+							"parameters": {
+								"comparison": 0,
+								"number": "13"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 575750272456005
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 988942124951784,
+							"parameters": {
+								"audio-file": {
+									"path": "heavyBag1"
+								},
+								"loop": "not-looping",
+								"volume": "-7",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "zal",
+							"sid": 468800394543064,
+							"parameters": {
+								"object": "Dust",
+								"layer": "6",
+								"image-point": "1",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 927116880373842
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 821821310029540,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 803824425011743,
+							"parameters": {
+								"comparison": 0,
+								"number": "20"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 359893609237807
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 695028255768288,
+							"parameters": {
+								"audio-file": {
+									"path": "heavyBag2"
+								},
+								"loop": "not-looping",
+								"volume": "-7",
+								"stereo-pan": "40",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 361485910134819,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 376069314501729,
+							"parameters": {
+								"audio-file": {
+									"path": "boxingbreaf1"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "40",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 504696798247836
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 482136200314715,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 461920556004937,
+							"parameters": {
+								"comparison": 0,
+								"number": "26"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 250445910221902
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 177124980997245,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch3"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "zal",
+							"sid": 443966622219611,
+							"parameters": {
+								"object": "Dust",
+								"layer": "6",
+								"image-point": "1",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 875429074941097
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 117512786497909,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 980638679083109,
+							"parameters": {
+								"comparison": 0,
+								"number": "32"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 174639454441839
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 359186807160773,
+							"parameters": {
+								"audio-file": {
+									"path": "heavyBag3"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 257038883143514,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 762035681346676,
+							"parameters": {
+								"audio-file": {
+									"path": "boxingbreaf2"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "40",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 431899426631858
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 261093033911334,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 519643233538346,
+							"parameters": {
+								"comparison": 0,
+								"number": "34"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 530198223361725
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 974205864916139,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch2"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "zal",
+							"sid": 824545921221980,
+							"parameters": {
+								"object": "Dust",
+								"layer": "6",
+								"image-point": "1",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 993289280774740
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 854093803249778,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 932555800805189,
+							"parameters": {
+								"comparison": 0,
+								"number": "41"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 147229804826157
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 354818393435829,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch3"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 375927283172702
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 377142901039730,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 460717837922191,
+							"parameters": {
+								"comparison": 0,
+								"number": "57"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 768187917529694
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 891791928007935,
+							"parameters": {
+								"audio-file": {
+									"path": "heavyBag1"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 231566578687818,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 238256494249371,
+							"parameters": {
+								"audio-file": {
+									"path": "boxingbreaf1"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "40",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "zal",
+							"sid": 220633517522360,
+							"parameters": {
+								"object": "Dust",
+								"layer": "6",
+								"image-point": "1",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 381767861147058
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 499705296166056,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 886871910088602,
+							"parameters": {
+								"comparison": 0,
+								"number": "59"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 647476412854101
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 588401423491419,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch1"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 253809727761188
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 240918818704279,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 280392487546273,
+							"parameters": {
+								"comparison": 0,
+								"number": "63"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 660965537035088
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 942183851751640,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch2"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "zal",
+							"sid": 711677054836007,
+							"parameters": {
+								"object": "Dust",
+								"layer": "6",
+								"image-point": "1",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 528923899040723
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 193709554713833,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 763366021184333,
+							"parameters": {
+								"comparison": 0,
+								"number": "67"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 732766630322128
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 406872298835622,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch3"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 641688847438687
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 879520699877131,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 557857702542926,
+							"parameters": {
+								"comparison": 0,
+								"number": "70"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 897178303818574
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 543042367016191,
+							"parameters": {
+								"audio-file": {
+									"path": "heavyBag2"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 502879462040760,
+							"parameters": {
+								"seconds": "0.2",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 965778592726573,
+							"parameters": {
+								"audio-file": {
+									"path": "boxingbreaf2"
+								},
+								"loop": "not-looping",
+								"volume": "-12",
+								"stereo-pan": "40",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "zal",
+							"sid": 744309895823833,
+							"parameters": {
+								"object": "Dust",
+								"layer": "6",
+								"image-point": "1",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 892060103543130
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 390855418203059,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 353748801696511,
+							"parameters": {
+								"comparison": 0,
+								"number": "72"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 226582859159663
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 745646314102679,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch2"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 105517745060656
+				},
+				{
+					"bookmark": true,
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "boxer",
+							"sid": 489886247662560,
+							"parameters": {
+								"animation": "\"boxer\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "boxer",
+							"sid": 990364388410646,
+							"parameters": {
+								"comparison": 0,
+								"number": "75"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 715028405677620
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 214133396731897,
+							"parameters": {
+								"audio-file": {
+									"path": "bagpunch3"
+								},
+								"loop": "not-looping",
+								"volume": "-8",
+								"stereo-pan": "50",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "zal",
+							"sid": 184827131563094,
+							"parameters": {
+								"object": "Dust",
+								"layer": "6",
+								"image-point": "1",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 163908410181057
+				}
+			],
+			"sid": 444558274125784
+		}
+	],
+	"sid": 718297780031881
+}

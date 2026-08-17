@@ -1,0 +1,61 @@
+{
+	"name": "menuCam",
+	"plugin-id": "Sprite",
+	"sid": 826788089980650,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 263672925942281
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 351740160121688
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine2",
+			"sid": 310822928849055
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine3",
+			"sid": 595790701939447
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.032,
+						"originY": 0.084,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4305615,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 581154015069577,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

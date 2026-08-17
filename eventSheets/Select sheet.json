@@ -1,0 +1,719 @@
+{
+	"name": "Select sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "LeftSpriteFighter",
+			"type": "string",
+			"initialValue": "",
+			"comment": "Ссылка для удаления спрайта левого игрока",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 780234692313836
+		},
+		{
+			"eventType": "variable",
+			"name": "RightSpriteFighter",
+			"type": "string",
+			"initialValue": "",
+			"comment": "Ссылка для удаления спрайта правого игрока",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 275145718153589
+		},
+		{
+			"eventType": "variable",
+			"name": "OneChoice",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 398547303671853
+		},
+		{
+			"eventType": "comment",
+			"text": "Управление выбором"
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "P1",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "RIGHT",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 652457961458110,
+									"parameters": {
+										"key": 68
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "selecttool",
+									"sid": 507505146253026,
+									"parameters": {
+										"instance-variable": "xValue",
+										"comparison": 2,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-forward",
+									"objectClass": "selecttool",
+									"sid": 625633524277387,
+									"parameters": {
+										"distance": "269"
+									}
+								},
+								{
+									"id": "set-group-active",
+									"objectClass": "System",
+									"sid": 430796341221574,
+									"parameters": {
+										"group-name": "\"LEFT\"",
+										"state": "activated"
+									}
+								},
+								{
+									"type": "script",
+									"language": "javascript",
+									"script": [
+										"const selectTool = runtime.objects.selecttool.getFirstInstance();",
+										"selectTool.instVars.xValue += 1;",
+										"LeftSpriteFighter.destroy();"
+									]
+								}
+							],
+							"sid": 676199147358815
+						}
+					],
+					"sid": 324452580974396
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "LEFT",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 707884019391340,
+									"parameters": {
+										"key": 65
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "selecttool",
+									"sid": 324525157433797,
+									"parameters": {
+										"instance-variable": "xValue",
+										"comparison": 4,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-forward",
+									"objectClass": "selecttool",
+									"sid": 394958783473060,
+									"parameters": {
+										"distance": "-269"
+									}
+								},
+								{
+									"id": "set-group-active",
+									"objectClass": "System",
+									"sid": 972067517227692,
+									"parameters": {
+										"group-name": "\"RIGHT\"",
+										"state": "activated"
+									}
+								},
+								{
+									"type": "script",
+									"language": "javascript",
+									"script": [
+										"const selectTool = runtime.objects.selecttool.getFirstInstance();",
+										"selectTool.instVars.xValue -= 1;",
+										"LeftSpriteFighter.destroy();"
+									]
+								}
+							],
+							"sid": 936165501020041
+						}
+					],
+					"sid": 222373054593551
+				}
+			],
+			"sid": 633137024594540
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "P2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "PadRight",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-button-pressed",
+									"objectClass": "Gamepad",
+									"sid": 660970818026254,
+									"parameters": {
+										"gamepad": "0",
+										"button": "d-pad-right"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "selecttool2",
+									"sid": 367457910926246,
+									"parameters": {
+										"instance-variable": "xValue",
+										"comparison": 2,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-forward",
+									"objectClass": "selecttool2",
+									"sid": 463576399721360,
+									"parameters": {
+										"distance": "269"
+									}
+								},
+								{
+									"id": "set-group-active",
+									"objectClass": "System",
+									"sid": 932807211059558,
+									"parameters": {
+										"group-name": "\"PadLeft\"",
+										"state": "activated"
+									}
+								},
+								{
+									"type": "script",
+									"language": "javascript",
+									"script": [
+										"const selectTool = runtime.objects.selecttool2.getFirstInstance();",
+										"selectTool.instVars.xValue += 1;",
+										"RightSpriteFighter.destroy();"
+									]
+								}
+							],
+							"sid": 333788662401296
+						}
+					],
+					"sid": 259222320377730
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "PadLeft",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-button-pressed",
+									"objectClass": "Gamepad",
+									"sid": 165345298673396,
+									"parameters": {
+										"gamepad": "0",
+										"button": "d-pad-left"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "selecttool2",
+									"sid": 746024045683057,
+									"parameters": {
+										"instance-variable": "xValue",
+										"comparison": 4,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-forward",
+									"objectClass": "selecttool2",
+									"sid": 491567938038271,
+									"parameters": {
+										"distance": "-269"
+									}
+								},
+								{
+									"id": "set-group-active",
+									"objectClass": "System",
+									"sid": 780535228875867,
+									"parameters": {
+										"group-name": "\"PadRight\"",
+										"state": "activated"
+									}
+								},
+								{
+									"type": "script",
+									"language": "javascript",
+									"script": [
+										"const selectTool = runtime.objects.selecttool2.getFirstInstance();",
+										"selectTool.instVars.xValue -= 1;",
+										"RightSpriteFighter.destroy();"
+									]
+								}
+							],
+							"sid": 732264243675180
+						}
+					],
+					"sid": 369425912966252
+				}
+			],
+			"sid": 473657133969517
+		},
+		{
+			"eventType": "comment",
+			"text": "Инициализация"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 865487853810483
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "selecttool",
+					"sid": 697282369623070,
+					"parameters": {
+						"object": "FLeo",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "selecttool2",
+					"sid": 976959887037927,
+					"parameters": {
+						"object": "FAmigo",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 379210322230316,
+					"parameters": {
+						"audio-file": {
+							"path": "selecttrack"
+						},
+						"loop": "looping",
+						"volume": "-10",
+						"stereo-pan": "0",
+						"tag-optional": "\"select\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 343277776606736,
+					"parameters": {
+						"audio-file": {
+							"path": "destiny"
+						},
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"InitializeSheet.initializeSelectSheet(runtime);"
+					]
+				}
+			],
+			"sid": 238413978861902
+		},
+		{
+			"eventType": "comment",
+			"text": "Блоки выбора"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "selecttool",
+					"sid": 584803291518776,
+					"parameters": {
+						"object": "SelectFigthers"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 903305259863435,
+					"parameters": {
+						"audio-file": {
+							"path": "selectsound1"
+						},
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"const selectFigther = runtime.objects.SelectFigthers.getFirstPickedInstance();",
+						"",
+						"const sourceObject = runtime.objects.Select2.getFirstInstance();",
+						"",
+						"const newSprite = SpawnManager.spawnOnPoint(runtime, sourceObject, selectFigther.instVars.NameLinkToVisualObject, \"Fighters\");",
+						"if (newSprite) {",
+						"    globalThis.LeftSpriteFighter = newSprite;",
+						"}"
+					]
+				}
+			],
+			"sid": 527002631243997
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "selecttool2",
+					"sid": 725465267340365,
+					"parameters": {
+						"object": "SelectFigthers"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 339478060536077,
+					"parameters": {
+						"audio-file": {
+							"path": "selectsound2"
+						},
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"const selectFigther = runtime.objects.SelectFigthers.getFirstPickedInstance();",
+						"",
+						"const sourceObject = runtime.objects.Select2.getFirstInstance();",
+						"",
+						"const newSprite = SpawnManager.spawnWithFlipX(runtime, sourceObject, selectFigther.instVars.NameLinkToVisualObject, \"Fighters\");",
+						"if (newSprite) {",
+						"    globalThis.RightSpriteFighter = newSprite;",
+						"    ",
+						"}"
+					]
+				}
+			],
+			"sid": 433069100169779
+		},
+		{
+			"eventType": "comment",
+			"text": "Блоки подтверждения выбора"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 608507223748742,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 428241824341930,
+					"parameters": {
+						"audio-file": {
+							"path": "hit"
+						},
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 810910132651289,
+					"parameters": {
+						"audio-file": {
+							"path": "leo"
+						},
+						"loop": "not-looping",
+						"volume": "-4",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 846116308567967,
+					"parameters": {
+						"group-name": "\"RIGHT\"",
+						"state": "deactivated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 949387198288595,
+					"parameters": {
+						"group-name": "\"LEFT\"",
+						"state": "deactivated"
+					}
+				}
+			],
+			"sid": 580216507456162,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "selecttool",
+							"sid": 998020261798506,
+							"parameters": {
+								"object": "SelectFigthers"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "SelectFigthers",
+							"sid": 748450580853144,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 178798325733898,
+							"parameters": {
+								"seconds": "0.3",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "SelectFigthers",
+							"sid": 888883458689167,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "set-default-color",
+							"objectClass": "SelectFigthers",
+							"sid": 725570965522602,
+							"parameters": {
+								"color": "rgbEx(100, 0, 0)"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "selecttool",
+							"sid": 736143443011449
+						}
+					],
+					"sid": 774328279553782
+				}
+			],
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 550024769839039,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-x"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 325231438842556,
+					"parameters": {
+						"audio-file": {
+							"path": "hit"
+						},
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 767978785075851,
+					"parameters": {
+						"audio-file": {
+							"path": "leo"
+						},
+						"loop": "not-looping",
+						"volume": "-4",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 345558469532172,
+					"parameters": {
+						"group-name": "\"PadLeft\"",
+						"state": "deactivated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 865140541691233,
+					"parameters": {
+						"group-name": "\"PadRight\"",
+						"state": "deactivated"
+					}
+				}
+			],
+			"sid": 427581810183675,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "selecttool2",
+							"sid": 257706466654795,
+							"parameters": {
+								"object": "SelectFigthers"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "SelectFigthers",
+							"sid": 520847534197510,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 967141385726591,
+							"parameters": {
+								"seconds": "0.3",
+								"use-timescale": true
+							}
+						},
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "SelectFigthers",
+							"sid": 314430246393917,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Brightness\""
+							}
+						},
+						{
+							"id": "set-default-color",
+							"objectClass": "SelectFigthers",
+							"sid": 383243405139955,
+							"parameters": {
+								"color": "rgbEx(0, 0, 200)"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "selecttool2",
+							"sid": 386709690432015
+						}
+					],
+					"sid": 137862168994165
+				}
+			]
+		}
+	],
+	"sid": 658459625598407
+}

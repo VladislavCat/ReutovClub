@@ -1,0 +1,119 @@
+{
+	"name": "START",
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "Стартовое меню, просто картинка и музыка. При нажатии space происходит переход на следуйщий слой."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 792596865157454
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 354024605509980,
+					"parameters": {
+						"audio-file": {
+							"path": "load"
+						},
+						"loop": "looping",
+						"volume": "-25",
+						"stereo-pan": "0",
+						"tag-optional": "\"drone\""
+					}
+				}
+			],
+			"sid": 927942635255901
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 785852068758391,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "space",
+					"sid": 582652098305051,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"Brightness\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 366172061688885,
+					"parameters": {
+						"audio-file": {
+							"path": "hit"
+						},
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 317470150464768,
+					"parameters": {
+						"seconds": "0.3",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "space",
+					"sid": 972827177017304,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Brightness\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 115707672218327,
+					"parameters": {
+						"seconds": "0.1",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 295817081904641,
+					"parameters": {
+						"tag": "\"drone\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 138601633545170,
+					"parameters": {
+						"layout": "menu"
+					}
+				}
+			],
+			"sid": 146454657373979
+		}
+	],
+	"sid": 675441970791157
+}

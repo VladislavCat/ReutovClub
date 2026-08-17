@@ -1,0 +1,78 @@
+{
+	"name": "FighterBase",
+	"plugin-id": "Sprite",
+	"sid": 329432422254557,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "State",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 539632533857721
+		},
+		{
+			"name": "HP2",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 694264039586281
+		},
+		{
+			"name": "FighterName",
+			"type": "string",
+			"desc": "default",
+			"show": true,
+			"sid": 487874085340863
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 124463752696654
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 917936015971924
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 824824051128907
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6015026,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 780711141227806,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

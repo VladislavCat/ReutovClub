@@ -1,0 +1,21 @@
+{
+	"name": "VisualFigthers",
+	"plugin-id": "Sprite",
+	"sid": 157207685125843,
+	"instanceVariables": [
+		{
+			"name": "Hitbox",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 195972279913653
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"AmigoVisual",
+		"VisualPlayer",
+		"Kate"
+	]
+}

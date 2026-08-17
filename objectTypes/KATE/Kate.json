@@ -1,0 +1,177 @@
+{
+	"name": "Kate",
+	"plugin-id": "Sprite",
+	"sid": 955584662371431,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "contrast",
+			"name": "Contrast"
+		},
+		{
+			"effectId": "alphaclamp",
+			"name": "AlphaCutoff"
+		},
+		{
+			"effectId": "sepia",
+			"name": "Sepia"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 341,
+						"height": 653,
+						"originX": 0.4868035190615836,
+						"originY": 0.9188361408882083,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9861690,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 352,
+						"height": 658,
+						"originX": 0.46875,
+						"originY": 0.9179331306990881,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2957685,
+						"collisionPoly": {
+							"points": [
+								0.29545454545454547,
+								0.001519756838905775,
+								0.9971590909090909,
+								0.22340425531914893,
+								0.8210227272727273,
+								0.9726443768996961,
+								0.19602272727272727,
+								0.9741641337386018,
+								0.002840909090909091,
+								0.3069908814589666,
+								0.11931818181818182,
+								0.041033434650455926
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 335,
+						"height": 661,
+						"originX": 0.40298507462686567,
+						"originY": 0.9183055975794251,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7165523,
+						"collisionPoly": {
+							"points": [
+								0.382089552238806,
+								0.019667170953101363,
+								0.9940298507462687,
+								0.2329803328290469,
+								0.7761194029850746,
+								0.9757942511346445,
+								0.1253731343283582,
+								0.9788199697428139,
+								0.08955223880597014,
+								0.875945537065053,
+								0.0029850746268656717,
+								0.3010590015128593,
+								0.12238805970149254,
+								0.04236006051437216
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 303,
+						"height": 658,
+						"originX": 0.35973597359735976,
+						"originY": 0.9209726443768997,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 910379,
+						"collisionPoly": {
+							"points": [
+								0.41914191419141916,
+								0.0182370820668693,
+								0.9966996699669967,
+								0.21732522796352582,
+								0.7623762376237624,
+								0.9772036474164134,
+								0.052805280528052806,
+								0.9756838905775076,
+								0.019801980198019802,
+								0.8708206686930091,
+								0.009900990099009901,
+								0.2917933130699088,
+								0.13861386138613863,
+								0.0425531914893617
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 277,
+						"height": 662,
+						"originX": 0.3935018050541516,
+						"originY": 0.9229607250755287,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4672099,
+						"collisionPoly": {
+							"points": [
+								0.4332129963898917,
+								0.015105740181268883,
+								0.9963898916967509,
+								0.20090634441087613,
+								0.8050541516245487,
+								0.9773413897280967,
+								0.032490974729241874,
+								0.9622356495468278,
+								0.007220216606498195,
+								0.8700906344410876,
+								0.1299638989169675,
+								0.04833836858006042
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 987045666423202,
+				"name": "idle",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 8
+			}
+		],
+		"subfolders": []
+	}
+}

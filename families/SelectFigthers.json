@@ -1,0 +1,29 @@
+{
+	"name": "SelectFigthers",
+	"plugin-id": "Sprite",
+	"sid": 572703624455382,
+	"instanceVariables": [
+		{
+			"name": "FigtherName",
+			"type": "string",
+			"desc": "default",
+			"show": true,
+			"sid": 790003129023031
+		},
+		{
+			"name": "NameLinkToVisualObject",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 428743993567634
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"FKate",
+		"FLeo",
+		"FMax",
+		"FAmigo"
+	]
+}

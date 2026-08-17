@@ -1,0 +1,56 @@
+{
+	"name": "Leaf5",
+	"plugin-id": "Sprite",
+	"sid": 688427758015415,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 340640735405849
+		},
+		{
+			"behaviorId": "wrap",
+			"name": "Wrap",
+			"sid": 942162645980419
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 688828154645938
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 133,
+						"height": 230,
+						"originX": 0.49624060150375937,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9725061,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 865219290745214,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
