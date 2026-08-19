@@ -586,6 +586,18 @@
 							"id": "destroy",
 							"objectClass": "selecttool",
 							"sid": 736143443011449
+						},
+						{
+							"type": "script",
+							"language": "javascript",
+							"script": [
+								"if (globalThis.OneChoice) {",
+								"\tPlayerChoice.setFighterPlayerLeft(runtime.objects.SelectFigthers.getFirstPickedInstance());",
+								"\treturn;",
+								"} else {",
+								"\tglobalThis.OneChoice = true;",
+								"}"
+							]
 						}
 					],
 					"sid": 774328279553782
@@ -652,6 +664,18 @@
 						"group-name": "\"PadRight\"",
 						"state": "deactivated"
 					}
+				},
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"if (globalThis.OneChoice) {",
+						"\tPlayerChoice.setFighterPlayerRight(runtime.objects.SelectFigthers.getFirstPickedInstance());",
+						"\treturn;",
+						"} else {",
+						"\tglobalThis.OneChoice = true;",
+						"}"
+					]
 				}
 			],
 			"sid": 427581810183675,

@@ -693,7 +693,7 @@
 							"objectClass": "System",
 							"sid": 819949364543838,
 							"parameters": {
-								"layout": "select"
+								"layout": "select character"
 							}
 						}
 					],

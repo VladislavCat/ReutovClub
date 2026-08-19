@@ -1172,7 +1172,7 @@
 			"effectId": "bulge",
 			"name": "Bulge",
 			"instance": {
-				"isEnabled": true,
+				"isEnabled": false,
 				"parameters": {
 					"radius": 0.5,
 					"scale": 0.04
@@ -1183,7 +1183,7 @@
 			"effectId": "pixellate",
 			"name": "Pixellate",
 			"instance": {
-				"isEnabled": false,
+				"isEnabled": true,
 				"parameters": {
 					"size": 2
 				}
