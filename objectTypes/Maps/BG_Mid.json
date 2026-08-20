@@ -1,0 +1,69 @@
+{
+	"name": "BG_Mid",
+	"plugin-id": "Sprite",
+	"sid": 573103979729314,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "noise",
+			"name": "Noise"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2560,
+						"height": 1428,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1486805,
+						"collisionPoly": {
+							"points": [
+								0.000390625,
+								0,
+								1,
+								0.3914565826330532,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "player1",
+								"x": 0.367578125,
+								"y": 0.8956582633053222
+							},
+							{
+								"name": "player2",
+								"x": 0.650390625,
+								"y": 0.8914565826330533
+							}
+						],
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 619811429072917,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

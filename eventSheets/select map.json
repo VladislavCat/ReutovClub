@@ -1,0 +1,262 @@
+{
+	"name": "select map",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "MapIndex",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 577595563413056
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 679555005480651,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 370999293561486,
+					"parameters": {
+						"variable": "MapIndex",
+						"value": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 752191721491577,
+					"parameters": {
+						"audio-file": {
+							"path": "click"
+						},
+						"loop": "not-looping",
+						"volume": "-10",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 831848082323401
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 274324769534130,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 570413000324898,
+					"parameters": {
+						"variable": "MapIndex",
+						"value": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 397863764017121,
+					"parameters": {
+						"audio-file": {
+							"path": "click"
+						},
+						"loop": "not-looping",
+						"volume": "-10",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 476465090856933
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 845549527428280,
+					"parameters": {
+						"variable": "MapIndex",
+						"comparison": 4,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 327020403949908,
+					"parameters": {
+						"variable": "MapIndex",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 488932033609524
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 509759771270954,
+					"parameters": {
+						"variable": "MapIndex",
+						"comparison": 2,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 314083885059586,
+					"parameters": {
+						"variable": "MapIndex",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 813806667842604
+		},
+		{
+			"eventType": "comment",
+			"text": "Forest"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 430740810632886,
+					"parameters": {
+						"variable": "MapIndex",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Maps",
+					"sid": 678967065771736,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "mapNames",
+					"sid": 191996279131917,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 146973488066463
+		},
+		{
+			"eventType": "comment",
+			"text": "Garages"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 977343539049662,
+					"parameters": {
+						"variable": "MapIndex",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Maps",
+					"sid": 104291069337733,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "mapNames",
+					"sid": 172496265353242,
+					"parameters": {
+						"frame-number": "2"
+					}
+				}
+			],
+			"sid": 810377578370903
+		},
+		{
+			"eventType": "comment",
+			"text": "Suburban"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 292617565554224,
+					"parameters": {
+						"variable": "MapIndex",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Maps",
+					"sid": 494248769491417,
+					"parameters": {
+						"frame-number": "2"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "mapNames",
+					"sid": 550026417716057,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 576912630107050
+		}
+	],
+	"sid": 708642185227421
+}

@@ -1,0 +1,88 @@
+{
+	"name": "mapNames",
+	"plugin-id": "Sprite",
+	"sid": 455465085684283,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 387,
+						"height": 90,
+						"originX": 0.5116279069767442,
+						"originY": 4.355555555555555,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3704950,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 283,
+						"height": 87,
+						"originX": 0.48056537102473496,
+						"originY": 4.494252873563219,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9780819,
+						"collisionPoly": {
+							"points": [
+								0.06713780918727916,
+								0.08045977011494221,
+								0.9681978798586572,
+								0.2413793103448276,
+								0.7561837455830389,
+								0.8735632183908046
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 339,
+						"height": 90,
+						"originX": 0.5073746312684366,
+						"originY": 4.355555555555555,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8580138,
+						"collisionPoly": {
+							"points": [
+								0.22418879056047197,
+								0.07777777777777778,
+								0.9734513274336283,
+								0.18888888888888888,
+								0.887905604719764,
+								0.8777777777777778
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 432555244410083,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

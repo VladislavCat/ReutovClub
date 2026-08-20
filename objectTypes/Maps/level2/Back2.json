@@ -1,0 +1,57 @@
+{
+	"name": "Back2",
+	"plugin-id": "Sprite",
+	"sid": 885429075376808,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "noise",
+			"name": "Noise"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2562,
+						"height": 412,
+						"originX": 0.5,
+						"originY": 0.7985436893203883,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 181607,
+						"collisionPoly": {
+							"points": [
+								0.00039032006245121,
+								0,
+								0.9996096799375488,
+								0,
+								0.9996096799375488,
+								1,
+								0.00039032006245121,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 957098497213723,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

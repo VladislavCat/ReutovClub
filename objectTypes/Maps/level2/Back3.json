@@ -1,0 +1,57 @@
+{
+	"name": "Back3",
+	"plugin-id": "Sprite",
+	"sid": 145320964406383,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "noise",
+			"name": "Noise"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2562,
+						"height": 619,
+						"originX": 0.5,
+						"originY": 1.1292407108239095,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3095255,
+						"collisionPoly": {
+							"points": [
+								0.00039032006245121,
+								0.0016155088852988692,
+								0.9996096799375488,
+								0.0016155088852988692,
+								0.9996096799375488,
+								1,
+								0.00039032006245121,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 540248169066888,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,110 @@
+{
+	"name": "Maps",
+	"plugin-id": "Sprite",
+	"sid": 500814599040268,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 693,
+						"height": 378,
+						"originX": 0.5007215007215007,
+						"originY": 0.5211640211640212,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4671259,
+						"collisionPoly": {
+							"points": [
+								0.06493506493506493,
+								0.005291005291005291,
+								0.9985569985569985,
+								0.05026455026455026,
+								0.9624819624819625,
+								0.9814814814814815,
+								0.36075036075036077,
+								0.9920634920634921,
+								0.011544011544011544,
+								0.955026455026455
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": "forest"
+					},
+					{
+						"width": 718,
+						"height": 385,
+						"originX": 0.5055710306406686,
+						"originY": 0.5246753246753246,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7621100,
+						"collisionPoly": {
+							"points": [
+								0.03064066852367688,
+								0.005194805194805195,
+								0.9860724233983287,
+								0.07012987012987013,
+								0.9623955431754875,
+								0.9636363636363636,
+								0.3064066852367688,
+								0.9818181818181818,
+								0.01532033426183844,
+								0.9168831168831169
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": "garages"
+					},
+					{
+						"width": 705,
+						"height": 395,
+						"originX": 0.500709219858156,
+						"originY": 0.5037974683544304,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 507444,
+						"collisionPoly": {
+							"points": [
+								0.375886524822695,
+								0.002531645569620253,
+								0.9985815602836879,
+								0.05063291139240506,
+								0.9574468085106383,
+								0.9721518987341772,
+								0.005673758865248227,
+								0.9367088607594937,
+								0.06950354609929078,
+								0.005063291139240506
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": "suburban"
+					}
+				],
+				"sid": 176140845329766,
+				"name": "maps",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

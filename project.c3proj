@@ -1,0 +1,958 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 49502,
+	"name": "ReutovClub",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Аудио",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Браузер",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Клавиатура",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Частицы",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Спрайт",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Текст",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Геймпад",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Пуля",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Угасание",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Physics",
+			"name": "Физика",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Платформер",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Поворот",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Синусоида",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Твин-анимация",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "[Bound to]",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "[Destroy outside]",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Следить за",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Твёрдый",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "wrap",
+			"name": "Заворачивание",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "alphaclamp",
+			"name": "Альфа-отсечка",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "blacknwhite",
+			"name": "Чёрно-белый",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "blurvertical",
+			"name": "Размытие по вертикали",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "brightness",
+			"name": "Яркость",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "bulge",
+			"name": "Выпуклость",
+			"author": "Brad Larson",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "contrast",
+			"name": "Контраст",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "grayscale",
+			"name": "Оттенки серого",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hsladjust",
+			"name": "Настроить HSL",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "noise",
+			"name": "Шум",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "pixellate",
+			"name": "Пикселировать",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "posterize",
+			"name": "Постеризация",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "pulse",
+			"name": "Пульс",
+			"author": "Danguafer/Silexars",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "radialblur",
+			"name": "Радиальное размытие",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "scanlines",
+			"name": "Строчное сканирование",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "sepia",
+			"name": "Сепия",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "setcolor",
+			"name": "Установить цвет",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "vignette",
+			"name": "Виньетка",
+			"author": "Brad Larson",
+			"bundled": false
+		}
+	],
+	"uniqueId": "04csiq0a50a",
+	"objectTypes": {
+		"items": [
+			"Bag",
+			"Audio",
+			"Keyboard",
+			"Gamepad",
+			"Text2",
+			"TestBox"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Ball",
+					"Ball2shadow",
+					"Dust",
+					"Fire",
+					"trubsSmoke",
+					"splash",
+					"jumpdust",
+					"Land",
+					"Blow",
+					"shadow",
+					"shadow2",
+					"shadowbag",
+					"truss"
+				],
+				"subfolders": [],
+				"name": "Particles"
+			},
+			{
+				"items": [
+					"Leaf",
+					"Leaf2",
+					"Leaf3",
+					"Leaf4",
+					"Leaf5",
+					"Leaf6",
+					"Leaf7LB",
+					"Bird2",
+					"Cat2",
+					"Crown",
+					"Crown2",
+					"crown3",
+					"small",
+					"small2",
+					"leafSmall3",
+					"paper",
+					"Birds"
+				],
+				"subfolders": [],
+				"name": "Envirement"
+			},
+			{
+				"items": [
+					"Anchor",
+					"CameraAnchor",
+					"ground",
+					"StateDebug",
+					"StateDebug2"
+				],
+				"subfolders": [],
+				"name": "System"
+			},
+			{
+				"items": [
+					"BG_Far",
+					"BG_Mid",
+					"hallR4",
+					"maskWall"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"Back2",
+							"Back3",
+							"wall",
+							"Main"
+						],
+						"subfolders": [],
+						"name": "level2"
+					},
+					{
+						"items": [
+							"selectBack",
+							"Maps",
+							"mapTools",
+							"mapNames",
+							"lightRay"
+						],
+						"subfolders": [],
+						"name": "map select"
+					}
+				],
+				"name": "Maps"
+			},
+			{
+				"items": [
+					"hp1",
+					"hp2",
+					"hpb1",
+					"hpb2",
+					"bars",
+					"Fight"
+				],
+				"subfolders": [],
+				"name": "HP"
+			},
+			{
+				"items": [
+					"AmigoFighter",
+					"AmigoHitBox",
+					"AmigoVisual",
+					"special2_",
+					"special4"
+				],
+				"subfolders": [],
+				"name": "AMIGO"
+			},
+			{
+				"items": [
+					"LeoHitbox",
+					"LeoFigther",
+					"VisualPlayer"
+				],
+				"subfolders": [],
+				"name": "LEO"
+			},
+			{
+				"items": [
+					"zal",
+					"back",
+					"bag2",
+					"menuCam",
+					"boxer",
+					"versus",
+					"credits",
+					"quit",
+					"select",
+					"Browser",
+					"arrows",
+					"Deeps3",
+					"Tono"
+				],
+				"subfolders": [],
+				"name": "Menu"
+			},
+			{
+				"items": [
+					"selecttool",
+					"selecttool2",
+					"Select2",
+					"FAmigo",
+					"FKate",
+					"FLeo",
+					"FMax"
+				],
+				"subfolders": [],
+				"name": "Select"
+			},
+			{
+				"items": [
+					"Kate"
+				],
+				"subfolders": [],
+				"name": "KATE"
+			},
+			{
+				"items": [
+					"space",
+					"reutov",
+					"fist"
+				],
+				"subfolders": [],
+				"name": "Load"
+			},
+			{
+				"items": [],
+				"subfolders": [],
+				"name": "Tono"
+			},
+			{
+				"items": [
+					"FighterBase"
+				],
+				"subfolders": [],
+				"name": "FighterTemplate"
+			}
+		]
+	},
+	"functionsName": "Functions",
+	"autosaveData": null,
+	"containers": [
+		{
+			"members": [
+				"FLeo",
+				"LeoFigther"
+			]
+		}
+	],
+	"families": {
+		"items": [
+			"Fighers",
+			"HitBoxes",
+			"TEXT",
+			"SelectFigthers",
+			"SelectTools",
+			"VisualFigthers"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"START",
+			"menu",
+			"select character",
+			"select map",
+			"level1",
+			"level2"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Menu sheet",
+			"START",
+			"Level1 sheet",
+			"Select sheet",
+			"select map"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [
+				{
+					"name": "SpawnManager.js",
+					"type": "application/javascript",
+					"sid": 789700446580675,
+					"script-info": {
+						"purpose": "main"
+					}
+				},
+				{
+					"name": "importsForEvents.js",
+					"type": "application/javascript",
+					"sid": 742324588118870,
+					"script-info": {
+						"purpose": "imports-for-events"
+					}
+				},
+				{
+					"name": "InitializeSheet.js",
+					"type": "application/javascript",
+					"sid": 803840216834977,
+					"script-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "PlayersChoice.js",
+					"type": "application/javascript",
+					"sid": 251631013507095,
+					"script-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "throw.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 642593605843284,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "throw2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 228416391907406,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "punch1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 307313328516520,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "punch2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 367346724306456,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "fight.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 551272070997494,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Lungo middle.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 867489845552207,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bagpunch1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 286019204348809,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bagpunch2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 191657507597871,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bagpunch3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 950440764143916,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "tono menu.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 844144362370409,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "boxingbreaf1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 614593379616506,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "boxingbreaf2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 772293683877730,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "boxingsteps.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 827322098707001,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 788078558211537,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "jik sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 339702863826833,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "jik sound2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 220419900970956,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "hit.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 961325751774167,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "selectsound1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 703111695878555,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "selectsound2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 966099586477503,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "selecttrack.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 403288659337983,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "load.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 949569479385306,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "amigo.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 737430269683515,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "destiny.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 848227850150044,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "leo.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 373333985487794,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "wins.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 688331655500350,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "heavyBag1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 688244702932963,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "heavyBag2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 874892856228935,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "heavyBag3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 961721155002369,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "fireball.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 884911565159155,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "fireball_impact.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 733627686393105,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "jump.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 846526659242816,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "landing.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 246212778864158,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "damage.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 355578820836084,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 921198508372099,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 616421743353708,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 546413259213882,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 902793402337788,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 593486061403348,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 553109864440927,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 420552049464714,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [
+			"Flowchart 1"
+		],
+		"subfolders": []
+	},
+	"models3d": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"autoIncrementVersion": false,
+		"author": "Harry Fader",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "regular",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": true,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"multitexturing": "auto",
+		"gpuPreference": "high-performance",
+		"framerateMode": "fixed",
+		"fixedFramerate": 60,
+		"sampling": "nearest",
+		"downscaling": "low",
+		"renderingMode": "2d",
+		"anisotropicFiltering": "off",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "progress",
+		"preloadSounds": true,
+		"uidAllocationMode": "increment",
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"exportFileStructure": "folders",
+		"scriptsType": "module"
+	},
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"firstLayout": "START"
+}
