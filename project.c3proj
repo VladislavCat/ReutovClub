@@ -9,252 +9,252 @@
 		{
 			"type": "plugin",
 			"id": "Audio",
-			"name": "Аудио",
+			"name": "Audio",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Browser",
-			"name": "Браузер",
+			"name": "Browser",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Клавиатура",
+			"name": "Keyboard",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Particles",
-			"name": "Частицы",
+			"name": "Particles",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Sprite",
-			"name": "Спрайт",
+			"name": "Sprite",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Текст",
+			"name": "Text",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "gamepad",
-			"name": "Геймпад",
+			"name": "Gamepad",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Bullet",
-			"name": "Пуля",
+			"name": "Bullet",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Fade",
-			"name": "Угасание",
+			"name": "Fade",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Physics",
-			"name": "Физика",
+			"name": "Physics",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Платформер",
+			"name": "Platform",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Rotate",
-			"name": "Поворот",
+			"name": "Rotate",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Sin",
-			"name": "Синусоида",
+			"name": "Sine",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Tween",
-			"name": "Твин-анимация",
+			"name": "Tween",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "bound",
-			"name": "[Bound to]",
+			"name": "Bound to",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "destroy",
-			"name": "[Destroy outside]",
+			"name": "Destroy outside",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "Следить за",
+			"name": "Scroll To",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Твёрдый",
+			"name": "Solid",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "wrap",
-			"name": "Заворачивание",
+			"name": "Wrap",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "alphaclamp",
-			"name": "Альфа-отсечка",
+			"name": "Alpha cutoff",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "blacknwhite",
-			"name": "Чёрно-белый",
+			"name": "Black & white",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "blurvertical",
-			"name": "Размытие по вертикали",
+			"name": "Blur vertical",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "brightness",
-			"name": "Яркость",
+			"name": "Brightness",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "bulge",
-			"name": "Выпуклость",
+			"name": "Bulge",
 			"author": "Brad Larson",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "contrast",
-			"name": "Контраст",
+			"name": "Contrast",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "grayscale",
-			"name": "Оттенки серого",
+			"name": "Grayscale",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "hsladjust",
-			"name": "Настроить HSL",
+			"name": "Adjust HSL",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "noise",
-			"name": "Шум",
+			"name": "Noise",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "pixellate",
-			"name": "Пикселировать",
+			"name": "Pixellate",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "posterize",
-			"name": "Постеризация",
+			"name": "Posterize",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "pulse",
-			"name": "Пульс",
+			"name": "Pulse",
 			"author": "Danguafer/Silexars",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "radialblur",
-			"name": "Радиальное размытие",
+			"name": "Radial blur",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "scanlines",
-			"name": "Строчное сканирование",
+			"name": "Scan lines",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "sepia",
-			"name": "Сепия",
+			"name": "Sepia",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "setcolor",
-			"name": "Установить цвет",
+			"name": "Set color",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "vignette",
-			"name": "Виньетка",
+			"name": "Vignette",
 			"author": "Brad Larson",
 			"bundled": false
 		}
@@ -345,9 +345,13 @@
 						"items": [
 							"selectBack",
 							"Maps",
-							"mapTools",
 							"mapNames",
-							"lightRay"
+							"lightRay",
+							"mapTools2",
+							"matchTools",
+							"matchPic",
+							"matchPic2",
+							"matchPic3"
 						],
 						"subfolders": [],
 						"name": "map select"
@@ -373,7 +377,8 @@
 					"AmigoHitBox",
 					"AmigoVisual",
 					"special2_",
-					"special4"
+					"special4",
+					"amigoVS"
 				],
 				"subfolders": [],
 				"name": "AMIGO"
@@ -382,7 +387,8 @@
 				"items": [
 					"LeoHitbox",
 					"LeoFigther",
-					"VisualPlayer"
+					"VisualPlayer",
+					"leoVS"
 				],
 				"subfolders": [],
 				"name": "LEO"
@@ -522,6 +528,14 @@
 					"name": "PlayersChoice.js",
 					"type": "application/javascript",
 					"sid": 251631013507095,
+					"script-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "PlayerChoice.js",
+					"type": "application/javascript",
+					"sid": 856949832422612,
 					"script-info": {
 						"purpose": "none"
 					}
@@ -791,6 +805,14 @@
 					"name": "damage.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 355578820836084,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Tono_gameVersion3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 940308677901579,
 					"file-info": {
 						"purpose": "none"
 					}

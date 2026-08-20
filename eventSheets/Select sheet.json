@@ -340,10 +340,10 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 379210322230316,
+					"sid": 147249191518863,
 					"parameters": {
 						"audio-file": {
-							"path": "selecttrack"
+							"path": "Tono_gameVersion3"
 						},
 						"loop": "looping",
 						"volume": "-10",
@@ -354,13 +354,14 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 343277776606736,
+					"sid": 941472612791705,
+					"disabled": true,
 					"parameters": {
 						"audio-file": {
 							"path": "destiny"
 						},
 						"loop": "not-looping",
-						"volume": "-5",
+						"volume": "-8",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
